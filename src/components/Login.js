@@ -15,6 +15,9 @@ export default Login;
 const Container = styled.div`
   position: relative;
   height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:before {
     background: url("/images/login-background.jpg") center center / cover
@@ -29,6 +32,8 @@ const Container = styled.div`
   }
 `;
 const CTA = styled.div`
-  max-width :650px;
+  max-width: 650px;
+  padding: 80px 40px;
+  width: 70%;
 `;
 const CTALogoOne = styled.img``;
