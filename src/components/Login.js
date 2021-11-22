@@ -28,5 +28,7 @@ const Container = styled.div`
     z-index: -1;
   }
 `;
-const CTA = styled.div``;
+const CTA = styled.div`
+  max-width :650px;
+`;
 const CTALogoOne = styled.img``;
