@@ -38,7 +38,7 @@ function Movies() {
 export default Movies
 
 const Container = styled.div`
-
+    margin-bottom: 12px;
 `
 const Content = styled.div`
     display: grid;
